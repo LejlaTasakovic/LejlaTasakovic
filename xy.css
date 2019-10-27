@@ -1,0 +1,105 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: lightblue;
+}
+.fa-facebook:hover {
+    background-color: lightblue;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: lightblue;
+}
+.fa-instagram:hover {
+    background-color: lightblue;
+}
+.fa-github {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: lightblue;
+}
+.fa-github:hover {
+    background-color: lightblue;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: lightblue;
+}
+.fa-linkedin:hover {
+    background-color: lightblue;
+}
+
+.wrapper {
+  position: relative;
+  height: 350px;
+  background-color: #f5f5f5;
+}
+
+.square-image{
+  float: right;
+  padding: 20px;
+  background: #fff;
+  margin: 0 50px;
+  transform: rotate(16deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+  width: 30%;
+  max-width: 500px
+}
+body {
+  margin: 20px;
+  background-image: url("https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/73293492_2628755507167501_6369704969783738368_n.jpg?_nc_cat=109&_nc_oc=AQnMBcu9-iqesqA_xD-fvyHryIJNzwotY4vrpa2KFyxgyK1xt_ji4FWEX_w0BtvgzLU&_nc_ht=scontent-waw1-1.xx&oh=a00dd5eb0c02b234740165db2edd1316&oe=5E1CDC54"); 
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+
