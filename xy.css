@@ -110,15 +110,15 @@ p{
   font-weight:120;  
   letter-spacing:2;
 }
-.prof-box{
-    background: rgba(0,0,0,0.4);
+.profile{
+    background: light;
     padding:40px;
     color:white;
     margin:0 auto;
     text-align:center;
 }
 
-.prof-pic{
+.selfie{
     border-radius:50%;
     height:200px;
     width:200px;
