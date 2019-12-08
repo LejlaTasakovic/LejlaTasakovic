@@ -9,8 +9,14 @@ Assignment: Resume Page
     <meta name="description" content="Resume">
     <meta name="author" content="Lejla Tašaković">
     <meta name="course" content="CS412">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="xy.css">
+      <script src="jquery-2.1.4.min.js"></script>
+<script src="skill.bars.jquery.js"></script>
+<script type="text/javascript" src="xyz.js"></script>
+
+
         <title>Lejla Tašaković</title>
     </head>
     <body>
@@ -18,66 +24,84 @@ Assignment: Resume Page
         <div class="profile">
             <img src="https://scontent.fsjj1-1.fna.fbcdn.net/v/t1.15752-9/73513589_726994024437050_5872291213662486528_n.png?_nc_cat=103&_nc_oc=AQl54epdAD49Nsfo6_uBtCdEJS11XimSKko9kBFEoWK7LMWtRGe1e4EYOb163FTVcKc&_nc_ht=scontent.fsjj1-1.fna&oh=cafd2ca621e96f36c64d81ebbe4d01ee&oe=5E6193BC" class="selfie">
         <h1 id="name">Lejla Tašaković</h1>
-        <h5 id="ket">[Future] Software Engineer</h5>
+        <h5 id="des">[Future] Software Engineer</h5>
         <br>
         <p>If you don't know who I am, then you can use the opportunity to get to know me now. <br>
 I'm an ambitious student at the International University of Sarajevo, in the department Faculty of Engineering and Natural Sciences, and I am studying Software Engineering. <br></p>
 </div>
-        <br>
+
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h3>Education:</h3>
-      <hr>
-      <dl>
-<li>Elementary school: <a href="http://ismschool.com" style="color:black">Internatioinal School of Martyrs (I.S.M) </a></li>
-<li>High school: <a href="http://www.bosnjackagim.edu.ba" style="color:black"> The First Bosniak High School </a> </li>
-<li>University: <a href="https://www.ius.edu.ba" style="color:black"> International University of Sarajevo (IUS) - <a href="https://fens.ius.edu.ba" style="color:black">FENS</a> Software Engineering </a> </li>
-      </dl>
-    </div>
-  </div>
+      <h3>Education</h3>
+<hr>
+ <dl>
+<li>Elementary school: <a href="http://ismschool.com" style="color:white">Internatioinal School of Martyrs (I.S.M) </a></li>
+<li>High school: <a href="http://www.bosnjackagim.edu.ba" style="color:white"> The First Bosniak High School </a> </li>
+<li>University: <a href="https://www.ius.edu.ba" style="color:white"> International University of Sarajevo (IUS) - <a href="https://fens.ius.edu.ba" style="color:white">FENS</a> Software Engineering </a> </li>
+</dl>
 </div>
+</div>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h3>Skills:</h3>
+      <h3>Skills</h3>
       <hr>
-        <div class="progress">
-            <ul>
-                <li>HTML<br>
-                    <progress style="width:80%" min="0" max="100" value="70"></progress>
-                </li>
-                <li>CSS<br>
-                    <progress style="width:80%" min="0" max="100" value="60"></progress>
-                </li>
-                <li>C<br>
-                    <progress style="width:80%" min="0" max="100" value="70"></progress>
-                </li>
-              <li>C++<br>
-                    <progress style="width:80%" min="0" max="100" value="70"></progress>
-                </li>
-                <li>Java<br>
-                    <progress style="width:80%" min="0" max="100" value="67"></progress>
-                </li>
-                <li>SQL<br>
-                    <progress style="width:80%" min="0" max="100" value="60"></progress>
-                </li>
-               <li>Python<br>
-                    <progress style="width:80%" min="0" max="100" value="50"></progress>
-                </li>
-            </ul>
-        </div>
+      <div class="skillbar clearfix " data-percent="67%">
+  <div class="skillbar-title" style="background:lightseagreen;"><span>HTML</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
+
+<div class="skillbar clearfix " data-percent="60%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>CSS</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
+</div> 
+
+<div class="skillbar clearfix " data-percent="50%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>JavaScript</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
+
+<div class="skillbar clearfix " data-percent="71%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>C</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div> 
+
+<div class="skillbar clearfix " data-percent="80%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>C++</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div> 
+
+<div class="skillbar clearfix " data-percent="75%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>Java</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
+
+<div class="skillbar clearfix " data-percent="64%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>Python</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
+
+<div class="skillbar clearfix " data-percent="66%">
+  <div class="skillbar-title" style="background: lightseagreen;"><span>SQL</span></div>
+  <div class="skillbar-bar" style="background: paleturquoise;"></div>
+</div>
       </div>
     </div>
   </div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-<h3>Working Experience: </h3>
-        <div> 
-          <hr>
-  <p style="color:black">
-    <dl>
+<h3>Working Experience</h3>
+<hr>
+<p style="color:black">
+<dl>
 <li>TA Calculus I</li>
 <li>Robotics Workshop Instructor - BIT Alliance and IUS Lifelong Learning Centre</li>
 <li>CoderDojo Instructor - BIT Alliance and IUS Lifelong Learning Centre</li>
@@ -87,20 +111,30 @@ I'm an ambitious student at the International University of Sarajevo, in the dep
 </div>
 </div>
 </div>
-</div>
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
- <h3>Contact: </h3> 
+ <h3>Contact</h3> 
   <hr>
-<p style="color:black"> 
+<p style="color:white"> 
 <address>
-Email me: <a href="mailto:lejlatasakovic@yahoo.com" style="color:black">Lejla Tašaković</a>.<br>
-Call me: <a href="tel:+387 61/572-311" style="color:black">Lejla Tašaković</a> <br>
+Email me: <a href="mailto:lejlatasakovic@yahoo.com" style="color:white">Lejla Tašaković</a>.<br>
+Call me: <a href="tel:+387 61/572-311" style="color:white">Lejla Tašaković</a> <br>
 Behdžeta Mutevelića 91, Sarajevo<br>
 Bosnia and Herzegovina 
 </address>
-<h3>And please leave your contact information below.</h3>
+</p>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+ <h3>Leave your contact information</h3> 
+  <hr>
 <form action="" method="post">
   <fieldset>
     <legend>Contact information:</legend>
@@ -116,11 +150,12 @@ Bosnia and Herzegovina
     <input type="reset">
   </fieldset>
 </form>
+</div>
+</div>
+</div>
 
-</p>
-</div>
-</div>
-</div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
@@ -136,7 +171,8 @@ Bosnia and Herzegovina
 </div>
 </div>
 </div>
-</div>
-        
-    </body>
+</div> 
+ 
+
+</body>
 </html>
