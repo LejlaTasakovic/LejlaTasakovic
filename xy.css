@@ -1,0 +1,203 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: teal;
+}
+.fa-facebook:hover {
+    background-color: teal;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: teal;
+}
+.fa-instagram:hover {
+    background-color: teal;
+}
+.fa-github {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: teal;
+}
+.fa-github:hover {
+    background-color: teal;
+}
+.fa-codepen {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: teal;
+}
+.fa-codepen:hover {
+    background-color: teal;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: teal;
+}
+.fa-linkedin:hover {
+    background-color: teal;
+}
+
+html{
+    background:url(https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/76705189_2511478785774775_8313916684771524608_n.png?_nc_cat=109&_nc_ohc=0z3JmIlXcyoAQmI4_8rBKXHf2yJ3bCdnHODJoJcdZltyhnQL9qB1695iA&_nc_ht=scontent-waw1-1.xx&oh=c60c4e05f5def4200898d14d02f28811&oe=5E7E7669) no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    position:relative;
+    display: block;
+    text-align: center;
+    font-family:"Helvetica-neue", sans-serif;
+}
+
+#name{
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:10;
+    font-weight:400;
+    font-size:30;
+}
+
+#des{
+    text-align:center;
+    font-weight:300;
+}
+
+p{
+  font-weight:120;  
+  letter-spacing:2;
+}
+
+.profile{
+background-color: rgba(0, 0, 0, 0.2);
+ color: white;
+ padding: 20px;
+ height: 400 px;
+ width: 400px;
+ margin: 100px auto;
+ text-align: center;
+}
+
+.selfie{
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    padding:10;
+}
+
+.container{
+background-color: rgba(0, 0, 0, 0.2);
+ color: white;
+ padding: 20px;
+ height: 400 px;
+ width: 400px;
+ margin: 100px auto;
+ text-align: center;
+}
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background:light;
+    height:35px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, 
+background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+width:110px;
+    font-weight:bold;
+    font-size:13px;
+    color:white;
+    background:light;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background:light;
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:light;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
