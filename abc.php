@@ -20,7 +20,7 @@ $sql="INSERT INTO feedback (name, email, comment) VALUES ('$name','$email', '$co
 $result = mysqli_query($conn, $sql);
 
 if($result){
-    echo $sql;
+    
 echo "Thank you! We will get in touch with you soon";
 }
 else{
