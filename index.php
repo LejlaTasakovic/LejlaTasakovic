@@ -155,7 +155,7 @@ Bosnia and Herzegovina
 
           <tr>
             <td></td>
-            <td><input type="submit" id="submit" name="submit" value="Submit"></td>
+            <td><input type="submit" id="submit" name="submit" value="Send"></td>
           </tr>
         </table>
 </div>
